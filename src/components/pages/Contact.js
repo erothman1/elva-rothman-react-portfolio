@@ -21,15 +21,44 @@ export default function Contact() {
         }
     }
 
+    const blurHandler = (event) => {
+        const { value, name } = event.target;
+    
+        if (name === "name" && value.trim() === "") {
+          setErrorMessage("Oops. Name is required")
+        } else if (name  === "email" && value.trim() === "") {
+          setErrorMessage("Oops. Email is required")
+        } else if (name  === "message" && value.trim() === "") {
+          setErrorMessage("Oops. Message is required")
+        } else {
+          setErrorMessage("")
+        }
+      }
+
     const formSubmitHandler = (event) => {
         event.preventDefault()
+
+        const { value, name } = event.target
 
         if (!validateEmail(email)) {
             setErrorMessage("Oops. Invalid email.")
             return
         }
 
-        //setErrorMessage that field is required when cursor goes out of input field 
+        if (name === "name" && value.trim() === "") {
+            setErrorMessage("Oops. Name is required")
+            return
+        }
+
+        if (name  === "email" && value.trim() === "") {
+            setErrorMessage("Oops. Email is required")
+            return
+        }
+
+        if (name  === "message" && value.trim() === "") {
+            setErrorMessage("Oops. Message is required")
+            return
+        }
 
         alert("Thanks for getting in touch!")
 
@@ -46,6 +75,7 @@ export default function Contact() {
                     value={name}
                     name="name"
                     onChange={inputChangeHandler}
+                    onBlur={blurHandler}
                     type="text"
                     placeholder="Name"
                 />
@@ -53,6 +83,7 @@ export default function Contact() {
                     value={email}
                     name="email"
                     onChange={inputChangeHandler}
+                    onBlur={blurHandler}
                     type="email"
                     placeholder="Email"
                 />
@@ -60,6 +91,7 @@ export default function Contact() {
                     value={message}
                     name="message"
                     onChange={inputChangeHandler}
+                    onBlur={blurHandler}
                     type="text"
                     placeholder="Message"
                 />
