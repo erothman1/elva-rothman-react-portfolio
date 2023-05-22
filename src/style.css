@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(70, 80, 91) !important;
+    color: lavender;
+}
+
+.navName {
+    padding: 2rem;
+    font-size: 19px;
+    float: left;
+}
+
+.nav {
+    display: flex;
+    justify-content: end !important;
+}
+
+a {
+    text-decoration: none;
+    color: lavender !important;
+    gap: 3rem !important;
+    padding: 2rem !important;
+    font-size: 19px !important;
+}
+
+h1 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1::after {
+    content: "";
+    display: block; 
+    height: .3rem;
+    width: 10rem;
+    background-color: rgb(227, 137, 185);
+}
+
+p {
+    padding-right: 20rem;
+    padding-left: 3rem;
+    font-size: 19px;
+}
+
+.quote {
+    color: rgb(227, 137, 185);
+}
+
+.avatar {
+    float: right;
+}

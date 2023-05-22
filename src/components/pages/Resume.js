@@ -7,7 +7,6 @@ export default function Resume() {
             <a href={myResume} download="elvaRothmanResume.pdf">
                 <button>Download my resume</button>
             </a>
-
             <h2>Front End Skills</h2>
             <ul>
                 <li>HTML</li>
@@ -41,7 +40,6 @@ export default function Resume() {
                 <li>Organization</li>
                 <li>Fast learner</li>
             </ul>
-           
         </div>
     )
 }
