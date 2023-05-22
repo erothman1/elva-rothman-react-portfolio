@@ -9,12 +9,6 @@ body {
     background-color: lavender !important;
     color: rgb(18, 18, 20);
 }
-/* 
-.portfolioContainer {
-    background-image: url("/src/assets/images/bluesky.jpg");
-    background-size: cover;
-    height: 100vh;
-} */
 
 .header {
     display: flex;
@@ -79,21 +73,7 @@ p {
     padding-bottom: 3rem;
 }
 
-/* .aboutContainer {
+.downloadButton {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 100vh;
-  }
-  
-  .textContent {
-    padding: 2rem;
-    text-align: justify;
-  }
-  
-  .avatarContainer {
-    margin-top: auto;
-    padding-bottom: 3rem;
-    text-align: center;
-  } */
+    justify-content: center;
+}

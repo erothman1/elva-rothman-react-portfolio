@@ -1,13 +1,16 @@
 import React from "react"
 import myResume from "../../assets/pdf/elvaRothmanResume.pdf"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function Resume() {
     return (
         <div>
-            <a href={myResume} download="elvaRothmanResume.pdf">
-                <button>Download my resume</button>
+            <a href={myResume} download="elvaRothmanResume.pdf" className="downloadButton">
+                <button type="button" className="btn btn-outline-dark"><FontAwesomeIcon icon={faCloudArrowDown} />  Download resume</button>
             </a>
-            <h2>Front End Skills</h2>
+            <embed src={myResume} type="application/pdf" width="100%" height="600px" />
+            {/* <h2>Front End Skills</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -39,7 +42,7 @@ export default function Resume() {
                 <li>Detail-oriented</li>
                 <li>Organization</li>
                 <li>Fast learner</li>
-            </ul>
+            </ul> */}
         </div>
     )
 }
