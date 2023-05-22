@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
     const pageChangeHandler = (page) => setCurrentPage(page)
 
     return (
-        <div>
+        <div className="portfolioContainer">
             {/* passing currentPage state and pageChangeHandler function to Nav.js as props */}
             <Nav currentPage={currentPage} pageChangeHandler={pageChangeHandler} />
 

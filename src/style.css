@@ -2,11 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: rgb(70, 80, 91) !important;
-    color: lavender;
+    background-color: lavender !important;
+    color: rgb(18, 18, 20);
+}
+/* 
+.portfolioContainer {
+    background-image: url("/src/assets/images/bluesky.jpg");
+    background-size: cover;
+    height: 100vh;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myName {
+    padding-top: 2rem;
+    padding-left:2rem;
+    font-size: 19px;
 }
 
 .navName {
@@ -17,12 +35,14 @@ body {
 
 .nav {
     display: flex;
-    justify-content: end !important;
+    justify-content: flex-end !important;
+    float: right;
+    border-bottom: none !important;
 }
 
 a {
     text-decoration: none;
-    color: lavender !important;
+    color: rgb(18, 18, 20) !important;
     gap: 3rem !important;
     padding: 2rem !important;
     font-size: 19px !important;
@@ -55,4 +75,25 @@ p {
 
 .avatar {
     float: right;
+    max-width: 300px;
+    padding-bottom: 3rem;
 }
+
+/* .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+  }
+  
+  .textContent {
+    padding: 2rem;
+    text-align: justify;
+  }
+  
+  .avatarContainer {
+    margin-top: auto;
+    padding-bottom: 3rem;
+    text-align: center;
+  } */
