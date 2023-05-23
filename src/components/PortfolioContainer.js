@@ -34,7 +34,7 @@ export default function PortfolioContainer() {
             {/* calling renderPage method returns a page component based on currentPage state */}
             {renderPage()}
 
-            <Footer></Footer>
+            <Footer currentPage={currentPage}></Footer>
         </div>
     )
 }

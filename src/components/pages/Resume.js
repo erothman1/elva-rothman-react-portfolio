@@ -10,7 +10,7 @@ export default function Resume() {
             <a href={myResume} download="elvaRothmanResume.pdf" className="downloadButton">
                 <button type="button" className="btn btn-outline-dark"><FontAwesomeIcon icon={faCloudArrowDown} />  Download resume</button>
             </a>
-            <embed src={myResume} type="application/pdf" width="100%" height="600px" />
+            <embed src={myResume} type="application/pdf" width="100%" height="1100px" />
             {/* <h2>Front End Skills</h2>
             <ul>
                 <li>HTML</li>

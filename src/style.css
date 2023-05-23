@@ -70,7 +70,12 @@ h1::after {
 .avatar {
     float: right;
     max-width: 300px;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
+    position: relative;
+    bottom: 0;
+    z-index: 101;
+    /* display: flex;
+    justify-content: flex-end; */
 }
 
 .downloadButton {
@@ -103,4 +108,16 @@ h1::after {
  
 .projectImage {
     width: 10rem;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background: lavender;
+  padding: 10px;
+  text-align: center;
+}
+
+.fixed-footer {
+    position: fixed;
 }
