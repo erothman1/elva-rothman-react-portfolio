@@ -12,12 +12,14 @@ export default function Portfolio() {
                             <div className="card">
                                 <img className="projectImage" src={project.image} class="card-img-top" alt="..."></img>
                                 <div className="card-body">
-                                    <h5 className="card-title">{project.name}</h5>
+                                    <h5 className="card-title center">{project.name}</h5>
                                     <p className="card-text">{project.tech}</p>
-                                    <a href={project.github} className="btn btn-outline-dark">Github</a>
-                                    {project.deployed && (
-                                        <a href={project.deployed} className="btn btn-outline-dark">Deployed</a>
-                                    )}
+                                    <div className="center">
+                                        <a href={project.github} className="btn btn-outline-dark githubButton">Github</a>
+                                        {project.deployed && (
+                                            <a href={project.deployed} className="btn btn-outline-dark deployedButton">Deployed</a>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </div>
