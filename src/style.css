@@ -155,3 +155,7 @@ footer {
 .active {
     color: rgb(227, 137, 185) !important;
 }
+
+.footerButtons:hover {
+    color: rgb(227, 137, 185) !important;
+}
