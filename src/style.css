@@ -151,3 +151,7 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.active {
+    color: rgb(227, 137, 185) !important;
+}
