@@ -91,3 +91,12 @@ p {
     display: flex;
     justify-content: center;
 }
+
+.card {
+    width: 18rem !important;
+    background-color: lavender;
+}
+ 
+.projectImage {
+    width: 10rem;
+}

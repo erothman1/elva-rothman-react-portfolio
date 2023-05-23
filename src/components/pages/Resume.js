@@ -6,6 +6,7 @@ import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
 export default function Resume() {
     return (
         <div>
+            {/* <h1>Resume</h1> */}
             <a href={myResume} download="elvaRothmanResume.pdf" className="downloadButton">
                 <button type="button" className="btn btn-outline-dark"><FontAwesomeIcon icon={faCloudArrowDown} />  Download resume</button>
             </a>
