@@ -57,7 +57,7 @@ h1::after {
     background-color: rgb(227, 137, 185);
 }
 
-p {
+.aboutMe {
     padding-right: 20rem;
     padding-left: 3rem;
     font-size: 19px;
@@ -95,6 +95,10 @@ p {
 .card {
     width: 18rem !important;
     background-color: lavender;
+}
+
+.card-text {
+    white-space: normal !important;
 }
  
 .projectImage {
