@@ -38,25 +38,23 @@ export default function Contact() {
     const formSubmitHandler = (event) => {
         event.preventDefault()
 
-        const { value, name } = event.target
-
         if (!validateEmail(email)) {
             setErrorMessage("Oops. Invalid email.")
             return
         }
 
         //TODO: form still submits if a field is empty
-        if (name === "name" && value.trim() === "") {
+        if (name.trim() === "") {
             setErrorMessage("Oops. Name is required")
             return
         }
 
-        if (name === "email" && value.trim() === "") {
+        if (email.trim() === "") {
             setErrorMessage("Oops. Email is required")
             return
         }
 
-        if (name === "message" && value.trim() === "") {
+        if (message.trim() === "") {
             setErrorMessage("Oops. Message is required")
             return
         }
@@ -98,15 +96,13 @@ export default function Contact() {
                 </div>
                 <div className="mb-3">
                     <label className="form-label">Message</label>
-                    <input
-                        value={message}
+                    <textarea
                         name="message"
                         onChange={inputChangeHandler}
                         onBlur={blurHandler}
-                        type="text"
                         // placeholder="Message"
                         className="form-control message"
-                    />
+                    >{message}</textarea>
                 </div>
                 {errorMessage && (
                     <div>

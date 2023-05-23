@@ -4,6 +4,7 @@ import AboutMe from "./pages/AboutMe"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import Resume from "./pages/Resume" 
+import Footer from "./Footer"
 
 export default function PortfolioContainer() {
     //set default for currentPage to be AboutMe page
@@ -32,6 +33,8 @@ export default function PortfolioContainer() {
 
             {/* calling renderPage method returns a page component based on currentPage state */}
             {renderPage()}
+
+            <Footer></Footer>
         </div>
     )
 }

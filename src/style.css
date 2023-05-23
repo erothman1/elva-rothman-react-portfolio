@@ -93,7 +93,7 @@ h1::after {
 }
 
 .card {
-    width: 18rem !important;
+    /* width: 18rem !important; */
     background-color: lavender;
 }
 
