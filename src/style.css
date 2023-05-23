@@ -159,3 +159,47 @@ footer {
 .footerButtons:hover {
     color: rgb(227, 137, 185) !important;
 }
+
+@media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .myName {
+      margin-bottom: 1rem;
+    }
+  
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-item {
+      margin: 0 0.5rem;
+    }
+  }
+
+@media (max-width: 768px) {
+    .aboutContainer {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .avatarContainer {
+      margin-top: 2rem;
+    }
+  
+    .textContent {
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .aboutMe {
+      padding-right: 0;
+    }
+    
+    .avatar {
+      float: none;
+      margin-bottom: 2rem;
+    }
+  }
+  
