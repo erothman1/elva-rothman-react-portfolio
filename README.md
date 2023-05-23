@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Elva Rothman React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Hi! My name is Elva Rothman and this is my portfolio that showcases my latest works as a Full Stack Developer. To create this portfolio, I have utilized React.js, Javascript, CSS, Bootstrap, and HTML. This application is a SPA, or a single page application. It has been designed to provide a seamless and interactive browsing experience for visitors. By employing React.js, I have leveraged its component-based architecture to build reusable UI elements, ensuring a modular and efficient development process.
 
-## Available Scripts
+JavaScript has been instrumental in enhancing the interactivity and functionality of this portfolio. Through its dynamic scripting capabilities, I have implemented various features such as smooth transitions, form validations, and interactive elements to engage users.
 
-In the project directory, you can run:
+To ensure a visually appealing and responsive design, CSS and Bootstrap have been utilized. With CSS, I have customized the styling and layout of the portfolio, making it aesthetically pleasing and user-friendly. Bootstrap has provided a solid foundation for responsive design, allowing the portfolio to adapt seamlessly to different screen sizes and devices.
 
-### `npm start`
+HTML forms the backbone of this portfolio, structuring the content and providing semantic markup. By adhering to best practices and utilizing HTML5 elements, I have optimized accessibility and search engine visibility.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The combination of these technologies has enabled me to create a robust and engaging single page application that effectively showcases my latest works as a Full Stack Developer. Through this portfolio, I aim to demonstrate my skills, creativity, and passion for developing innovative web applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+To browse my portfolio, [click here](https://erothman1.github.io/elva-rothman-react-portfolio/)!
 
-### `npm test`
+![Deployed App Screenshot](./src/assets/images/deployedapp.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributions
+Feel free to explore the different sections of my portfolio and learn more about the projects I have worked on. If you have any inquiries or would like to discuss potential collaborations, please don't hesitate to reach out. Thank you for visiting! You can reach me at elva.rothman.developer@gmail.com !
