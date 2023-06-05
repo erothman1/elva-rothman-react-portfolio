@@ -18,7 +18,7 @@ const projects = [
     {
         id: 7,
         name: "Sound Swap",
-        tech: "Full Stack online marketplace application to buy and sell records, albums, and CDs.",
+        tech: "Full Stack online marketplace application to buy and sell records, albums, and CDs built with Javascript, React, Express, MongoDB, Node, GraphQL, CSS, and Stripe.",
         image: SoundSwap,
         github: "https://github.com/erothman1/sound-swap",
         deployed: "https://infinite-anchorage-85332.herokuapp.com/",
