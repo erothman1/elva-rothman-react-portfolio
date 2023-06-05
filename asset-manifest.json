@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elva-rothman-react-portfolio/static/css/main.717fd596.css",
-    "main.js": "/elva-rothman-react-portfolio/static/js/main.ac6d7b87.js",
+    "main.js": "/elva-rothman-react-portfolio/static/js/main.61ee9364.js",
     "static/media/avatar.png": "/elva-rothman-react-portfolio/static/media/avatar.5f7bbce92023d6bf45d0.png",
     "static/media/SoundSwap.png": "/elva-rothman-react-portfolio/static/media/SoundSwap.fdf2752b5f9fbb6025ec.png",
     "static/media/elvaRothmanResume.pdf": "/elva-rothman-react-portfolio/static/media/elvaRothmanResume.e584c0ae847e24323b9f.pdf",
@@ -13,10 +13,10 @@
     "static/media/PortfoliYo.png": "/elva-rothman-react-portfolio/static/media/PortfoliYo.f80e7f7c087d7331bcea.png",
     "index.html": "/elva-rothman-react-portfolio/index.html",
     "main.717fd596.css.map": "/elva-rothman-react-portfolio/static/css/main.717fd596.css.map",
-    "main.ac6d7b87.js.map": "/elva-rothman-react-portfolio/static/js/main.ac6d7b87.js.map"
+    "main.61ee9364.js.map": "/elva-rothman-react-portfolio/static/js/main.61ee9364.js.map"
   },
   "entrypoints": [
     "static/css/main.717fd596.css",
-    "static/js/main.ac6d7b87.js"
+    "static/js/main.61ee9364.js"
   ]
 }
