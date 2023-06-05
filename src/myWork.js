@@ -4,6 +4,7 @@ import PortfoliYo from "./assets/images/PortfoliYo.png"
 import SocialNetworkAPI from "./assets/images/SocialNetworkAPI.png"
 import WeatherDashboard from "./assets/images/WeatherDashboard.png"
 import WowLunchtimeOdyssey from "./assets/images/WowLunchtimeOdyssey.png"
+import SoundSwap from "./assets/images/SoundSwap.png"
 
 const projects = [ 
     {
@@ -13,6 +14,14 @@ const projects = [
         image: WowLunchtimeOdyssey,
         github: "https://github.com/erothman1/Wow-The-Lunchtime-Odyssey",
         deployed: "https://erothman1.github.io/Wow-The-Lunchtime-Odyssey/",
+    },
+    {
+        id: 7,
+        name: "Sound Swap",
+        tech: "Full Stack online marketplace application to buy and sell records, albums, and CDs.",
+        image: SoundSwap,
+        github: "https://github.com/erothman1/sound-swap",
+        deployed: "https://infinite-anchorage-85332.herokuapp.com/",
     },
     {
         id: 2, 
